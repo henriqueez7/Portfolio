@@ -1,0 +1,140 @@
+#projetos{
+    padding: 80px 0;
+    background-color: #171718;
+    height: auto;
+}
+
+.projetos-card{
+    width: 100%;
+    max-width: 1000px;
+    display: flex;
+    padding: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    padding-left: 20px;
+}
+
+.img-card{
+    height: 180px;
+    width: 100%;
+    max-width: 400px;
+    min-width: 300px;
+    background-color: #ffffff;
+    border-left: 5px solid #6f00ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    overflow: hidden;
+    transition: ease-in-out 0.5s;
+}
+
+.img-card img{
+    height: 180px;
+    width: 100%;
+}
+
+.img-card:hover{
+    border-left: none;
+    letter-spacing: 5px;
+    transform: scale(1.05);
+}
+
+.img-card div{
+    background-color: #6f00ff;
+    width: 1000px;
+    text-align: center;
+    padding: 5% 0;
+    transform: rotate(-50deg);
+}
+
+.img-card p{
+    font-size: 1.2rem;
+    font-family: 'Oswald', sans-serif;
+}
+
+.descricao-card{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 20px;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+}
+
+.descricao-card h2{
+    font-size: 2rem;
+    margin-top: 20px;
+    font-family: 'Oswald', sans-serif;
+    
+}
+
+.descricao-card p{
+    font-size: 0.9rem;
+    width: 100%;
+    max-width: 390px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.inativo {
+    margin-bottom: 15px;
+  }
+
+.info-text {
+    color: #6f00ff;
+    font-weight: bold;
+    font-size: 50px;
+    font-family: 'Oswald', sans-serif;
+  }
+
+.button-visualizar {
+    background-color: rgba(48, 47, 47, 0);
+    width: 100%;
+    max-width: 110px;
+    padding: 10px;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    border: 2px solid #6f00ff;
+    border-radius: 10px;
+    
+    
+}
+
+.button-visualizar:hover {
+    background-color: #0f0f0f;
+    border: 2px solid #6f00ff;
+    cursor: pointer;
+}
+
+.button-visualizar a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    
+}
+
+@media (max-width: 909px) {
+    #projetos > .centralizador > .ajustes2 > .projetos-card .card {
+      width: 100%;
+      max-width: 600px;
+    }
+    #projetos > .centralizador > .ajustes2 > .projetos-card .card .img-card {
+      width: 100%;
+      max-width: 600px;
+      min-width: 200px;
+      height: 160px;
+    }
+    #projetos > .centralizador > .ajustes2 > .projetos-card .card .p {
+      width: 100%;
+      max-width: 600px;
+    }
+    #projetos > .centralizador > .ajustes2 > .projetos-card .card .button-visualizar {
+      width: 100%;
+      max-width: 200px;
+      font-size: 1.7rem;
+    }
+  }
+
+
